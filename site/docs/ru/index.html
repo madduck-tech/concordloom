@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#f3f0e8">
     <meta name="description" content="Быстрый старт, теория и справочные материалы Concord Loom.">
-    <link rel="canonical" href="https://concordloom.github.io/concordloom/docs/ru/">
-    <link rel="alternate" hreflang="en" href="https://concordloom.github.io/concordloom/docs/en/">
-    <link rel="alternate" hreflang="ru" href="https://concordloom.github.io/concordloom/docs/ru/">
-    <link rel="alternate" hreflang="x-default" href="https://concordloom.github.io/concordloom/docs/en/">
+    <link rel="canonical" href="https://madduck-tech.github.io/concordloom/docs/ru/">
+    <link rel="alternate" hreflang="en" href="https://madduck-tech.github.io/concordloom/docs/en/">
+    <link rel="alternate" hreflang="ru" href="https://madduck-tech.github.io/concordloom/docs/ru/">
+    <link rel="alternate" hreflang="x-default" href="https://madduck-tech.github.io/concordloom/docs/en/">
     <meta property="og:title" content="Документация Concord Loom">
     <meta property="og:description" content="Быстрый старт, теория и справочные материалы Concord Loom.">
-    <meta property="og:image" content="https://concordloom.github.io/concordloom/assets/concordloom-social-preview.png">
-    <meta property="og:url" content="https://concordloom.github.io/concordloom/docs/ru/">
+    <meta property="og:image" content="https://madduck-tech.github.io/concordloom/assets/concordloom-social-preview.png">
+    <meta property="og:url" content="https://madduck-tech.github.io/concordloom/docs/ru/">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="ru_RU">
     <title>Документация Concord Loom</title>
@@ -82,7 +82,7 @@
 <h2 id="quickstart-section-02">1. Установите навык Codex</h2>
 <p>Попросите Codex:</p>
 <pre tabindex="0"><code class="language-text">Use $skill-installer to install
-https://github.com/concordloom/concordloom/tree/v0.1.5/plugins/concordloom/skills/design-project-loops</code></pre>
+https://github.com/madduck-tech/concordloom/tree/v0.1.5/plugins/concordloom/skills/design-project-loops</code></pre>
 <p>После установки откройте новый диалог Codex в нужном репозитории. Новый диалог нужен, чтобы Codex загрузил установленный навык.</p>
 <h2 id="quickstart-section-03">2. Попросите построить первый Атлас</h2>
 <p>Напишите:</p>
@@ -96,7 +96,7 @@ https://github.com/concordloom/concordloom/tree/v0.1.5/plugins/concordloom/skill
 <p>Он не попросит придумывать роли, служебные идентификаторы, границы графа или пути для файлов.</p>
 <p>Затем навык проверит, доступна ли команда Concord Loom. Если команды нет, он покажет один безопасный способ установки и попросит разрешение перед изменением окружения или обращением к сети. Предпочтительная команда:</p>
 <pre tabindex="0"><code class="language-bash">pipx install \
-  &quot;concordloom @ git+https://github.com/concordloom/concordloom@v0.1.5&quot;</code></pre>
+  &quot;concordloom @ git+https://github.com/madduck-tech/concordloom@v0.1.5&quot;</code></pre>
 <p>Не используйте <code>--break-system-packages</code>. Если <code>pipx</code> недоступен, навык может использовать <code>uv tool</code> или отдельное управляемое окружение.</p>
 <h2 id="quickstart-section-04">3. Проверьте карту</h2>
 <p>Первое исследование работает только на чтение. Навык изучает отслеживаемые файлы, области репозитория, импорты, ограниченную историю Git и файлы, которые часто меняются вместе. Код самого проекта он не запускает.</p>
@@ -145,16 +145,16 @@ concordloom questions \
 <p>Эти файлы содержат наблюдения и предположения, а не принятую карту проекта. Команда <code>concordloom --help</code> покажет справку о низкоуровневых операциях: предложении правил, сборке, запусках, Атласе и эволюции.</p>
 <h2 id="quickstart-section-08">Что читать дальше</h2>
 <ul>
-<li><a href="https://concordloom.github.io/concordloom/docs/ru/atlas/">Руководство по Атласу</a> объясняет интерактивное и автономное</li>
+<li><a href="https://madduck-tech.github.io/concordloom/docs/ru/atlas/">Руководство по Атласу</a> объясняет интерактивное и автономное</li>
 </ul>
 <p>представления.</p>
 <ul>
-<li><a href="https://concordloom.github.io/concordloom/docs/ru/concepts/">Основные понятия</a> объясняют два графа и состояния сведений.</li>
-<li><a href="https://concordloom.github.io/concordloom/docs/ru/trust-model/">Модель доверия</a> объясняет, почему проверка и разрешение —</li>
+<li><a href="https://madduck-tech.github.io/concordloom/docs/ru/concepts/">Основные понятия</a> объясняют два графа и состояния сведений.</li>
+<li><a href="https://madduck-tech.github.io/concordloom/docs/ru/trust-model/">Модель доверия</a> объясняет, почему проверка и разрешение —</li>
 </ul>
 <p>разные вещи.</p>
 <ul>
-<li><a href="https://concordloom.github.io/concordloom/docs/ru/architecture/">Архитектура</a> описывает ядро и адаптеры.</li>
+<li><a href="https://madduck-tech.github.io/concordloom/docs/ru/architecture/">Архитектура</a> описывает ядро и адаптеры.</li>
 </ul>
           <h2>Циклы циклов</h2>
           <h1 id="article-document-title">Циклы циклов: общая грамматика управляемых изменений</h1>

@@ -21,9 +21,9 @@ classifiers = [
 dependencies = []
 
 [project.urls]
-Homepage = "https://concordloom.github.io/concordloom/"
-Repository = "https://github.com/concordloom/concordloom"
-Issues = "https://github.com/concordloom/concordloom/issues"
+Homepage = "https://madduck-tech.github.io/concordloom/"
+Repository = "https://github.com/madduck-tech/concordloom"
+Issues = "https://github.com/madduck-tech/concordloom/issues"
 
 [project.scripts]
 concordloom = "concordloom.cli:main"

@@ -27,7 +27,7 @@ class SiteContentProjectionTests(unittest.TestCase):
         )
 
         self.assertIn(
-            'href="https://concordloom.github.io/concordloom/docs/en/repository-trial/"',
+            'href="https://madduck-tech.github.io/concordloom/docs/en/repository-trial/"',
             fragment,
         )
 
@@ -64,23 +64,23 @@ class SiteContentProjectionTests(unittest.TestCase):
         russian = localized_index(content, "ru").decode("utf-8")
         self.assertIn('<html lang="ru"', russian)
         self.assertIn(
-            'rel="canonical" href="https://concordloom.github.io/concordloom/ru/"',
+            'rel="canonical" href="https://madduck-tech.github.io/concordloom/ru/"',
             russian,
         )
         self.assertIn('hreflang="en"', russian)
         self.assertIn('hreflang="x-default"', russian)
         self.assertIn(
-            'href="https://concordloom.github.io/concordloom/docs/ru/how-to-help/"',
+            'href="https://madduck-tech.github.io/concordloom/docs/ru/how-to-help/"',
             russian,
         )
 
     def test_crawler_files_name_every_public_language_url(self) -> None:
         robots = robots_txt().decode("utf-8")
         sitemap = sitemap_xml().decode("utf-8")
-        self.assertIn("Sitemap: https://concordloom.github.io/concordloom/sitemap.xml", robots)
+        self.assertIn("Sitemap: https://madduck-tech.github.io/concordloom/sitemap.xml", robots)
         for suffix in ("/", "/en/", "/ru/"):
             self.assertIn(
-                f"<loc>https://concordloom.github.io/concordloom{suffix}</loc>",
+                f"<loc>https://madduck-tech.github.io/concordloom{suffix}</loc>",
                 sitemap,
             )
 

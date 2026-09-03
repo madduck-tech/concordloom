@@ -29,7 +29,7 @@ Ask Codex:
 
 ```text
 Use $skill-installer to install
-https://github.com/concordloom/concordloom/tree/v0.1.5/plugins/concordloom/skills/design-project-loops
+https://github.com/madduck-tech/concordloom/tree/v0.1.5/plugins/concordloom/skills/design-project-loops
 ```
 
 Start a new Codex conversation in the repository after installation. The new
@@ -59,7 +59,7 @@ is:
 
 ```bash
 pipx install \
-  "concordloom @ git+https://github.com/concordloom/concordloom@v0.1.5"
+  "concordloom @ git+https://github.com/madduck-tech/concordloom@v0.1.5"
 ```
 
 Do not use `--break-system-packages`. The skill can also use `uv tool` or an

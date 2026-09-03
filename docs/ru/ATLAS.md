@@ -31,7 +31,7 @@
 
 ## Интерактивный Атлас проекта
 
-[Публичный Атлас](https://concordloom.github.io/concordloom/?lang=ru#atlas/steward-concordloom)
+[Публичный Атлас](https://madduck-tech.github.io/concordloom/?lang=ru#atlas/steward-concordloom)
 показывает все 66 циклов разработки Concord Loom. Начните с корня и выберите
 дочерний цикл, чтобы перейти на уровень глубже.
 

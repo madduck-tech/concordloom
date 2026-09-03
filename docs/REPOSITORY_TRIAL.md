@@ -54,7 +54,7 @@ code, personal data, tokens, or complete proprietary logs.
 
 ## Submit the result
 
-Open a [repository trial report](https://github.com/concordloom/concordloom/issues/new?template=repository-trial.yml).
+Open a [repository trial report](https://github.com/madduck-tech/concordloom/issues/new?template=repository-trial.yml).
 Choose an outcome even when no Atlas appeared:
 
 - completed without repository writes;

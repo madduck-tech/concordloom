@@ -1,7 +1,7 @@
 const { test, expect } = require("./support/test");
 const { waitForSite } = require("./support/site");
 
-const SITE_ORIGIN = "https://concordloom.github.io/concordloom";
+const SITE_ORIGIN = "https://madduck-tech.github.io/concordloom";
 const PUBLIC_DOC_SLUGS = [
   "concepts",
   "architecture",

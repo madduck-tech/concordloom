@@ -57,7 +57,7 @@
 
 ## Отправьте результат
 
-Создайте [отчёт об испытании репозитория](https://github.com/concordloom/concordloom/issues/new?template=repository-trial.yml).
+Создайте [отчёт об испытании репозитория](https://github.com/madduck-tech/concordloom/issues/new?template=repository-trial.yml).
 Укажите исход, даже если Атлас не появился:
 
 - завершено без записи в репозиторий;
