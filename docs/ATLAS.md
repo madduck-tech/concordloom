@@ -29,7 +29,7 @@ is stale and must be rebuilt.
 
 ## Interactive project Atlas
 
-The [public Atlas](https://concordloom.github.io/concordloom/#atlas/steward-concordloom)
+The [public Atlas](https://madduck-tech.github.io/concordloom/#atlas/steward-concordloom)
 shows all 66 cycles used to develop Concord Loom. Start at the root and select
 a child to move one level deeper.
 

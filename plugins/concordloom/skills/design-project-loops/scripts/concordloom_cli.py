@@ -16,7 +16,7 @@ from typing import Sequence
 RELEASE_VERSION = "0.1.5"
 RELEASE_SPEC = (
     "concordloom @ "
-    "git+https://github.com/concordloom/concordloom"
+    "git+https://github.com/madduck-tech/concordloom"
     f"@v{RELEASE_VERSION}"
 )
 

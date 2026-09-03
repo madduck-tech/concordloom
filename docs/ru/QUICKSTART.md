@@ -29,7 +29,7 @@
 
 ```text
 Use $skill-installer to install
-https://github.com/concordloom/concordloom/tree/v0.1.5/plugins/concordloom/skills/design-project-loops
+https://github.com/madduck-tech/concordloom/tree/v0.1.5/plugins/concordloom/skills/design-project-loops
 ```
 
 После установки откройте новый диалог Codex в нужном репозитории. Новый диалог
@@ -58,7 +58,7 @@ https://github.com/concordloom/concordloom/tree/v0.1.5/plugins/concordloom/skill
 
 ```bash
 pipx install \
-  "concordloom @ git+https://github.com/concordloom/concordloom@v0.1.5"
+  "concordloom @ git+https://github.com/madduck-tech/concordloom@v0.1.5"
 ```
 
 Не используйте `--break-system-packages`. Если `pipx` недоступен, навык может

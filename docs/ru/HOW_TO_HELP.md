@@ -14,7 +14,7 @@ Concord Loom — открытый некоммерческий проект по
 ### 10 минут: сообщить о неудобстве
 
 После быстрого старта заполните
-[отчёт об испытании репозитория](https://github.com/concordloom/concordloom/issues/new?template=repository-trial.yml)
+[отчёт об испытании репозитория](https://github.com/madduck-tech/concordloom/issues/new?template=repository-trial.yml)
 или опишите одну непонятную фразу, пропущенный шаг либо неожиданный результат.
 Полезный отчёт отвечает на три вопроса: что вы делали, что произошло и чего вы
 ожидали.
@@ -28,8 +28,8 @@ Concord Loom — открытый некоммерческий проект по
 
 ### Одна правка: исправить известную проблему
 
-Выберите [задачу для первого вклада](https://github.com/concordloom/concordloom/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22)
-или задачу с меткой [help wanted](https://github.com/concordloom/concordloom/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22help%20wanted%22).
+Выберите [задачу для первого вклада](https://github.com/madduck-tech/concordloom/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22)
+или задачу с меткой [help wanted](https://github.com/madduck-tech/concordloom/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22help%20wanted%22).
 Подойдут документация, тексты ошибок, тестовые примеры, адаптеры и небольшие
 исправления интерфейса. В задаче должны быть указаны границы и ожидаемая
 проверка.
@@ -46,7 +46,7 @@ Concord Loom — открытый некоммерческий проект по
 - доступная двуязычная документация и улучшения публичного сайта.
 
 Если проблема пока исследовательская, начните с
-[обсуждения](https://github.com/concordloom/concordloom/discussions). Создавайте
+[обсуждения](https://github.com/madduck-tech/concordloom/discussions). Создавайте
 issue, когда результат уже можно проверить.
 
 ## Как в проекте меняют репозиторий

@@ -13,7 +13,7 @@ You do not need to understand the schemas or runtime before helping.
 
 ### Ten minutes: report friction
 
-Open a [repository trial report](https://github.com/concordloom/concordloom/issues/new?template=repository-trial.yml)
+Open a [repository trial report](https://github.com/madduck-tech/concordloom/issues/new?template=repository-trial.yml)
 after trying the Quickstart, or report one confusing sentence, missing step, or
 unexpected result. A useful report names what you tried, what happened, and
 what you expected.
@@ -28,8 +28,8 @@ failure is reproducible.
 
 ### One focused change: fix a known problem
 
-Pick a [good first issue](https://github.com/concordloom/concordloom/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22)
-or an issue marked [help wanted](https://github.com/concordloom/concordloom/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22help%20wanted%22).
+Pick a [good first issue](https://github.com/madduck-tech/concordloom/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22)
+or an issue marked [help wanted](https://github.com/madduck-tech/concordloom/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22help%20wanted%22).
 Documentation, error messages, test fixtures, adapters, and small usability
 fixes all count. The issue should describe the boundary and expected evidence.
 
@@ -44,7 +44,7 @@ evidence model holds outside its own repository. Useful areas include:
 - independent review of specifications, threat assumptions, and release gates;
 - accessible, bilingual documentation and public-site improvements.
 
-Start a [Discussion](https://github.com/concordloom/concordloom/discussions)
+Start a [Discussion](https://github.com/madduck-tech/concordloom/discussions)
 when the problem is still exploratory. Open an issue when the outcome is
 concrete enough to test.
 

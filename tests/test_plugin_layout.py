@@ -595,7 +595,7 @@ class PluginLayoutTests(unittest.TestCase):
         self.assertIn("install_plan", commands)
         self.assertIn("install_argv", commands)
         self.assertIn(
-            "git+https://github.com/concordloom/concordloom",
+            "git+https://github.com/madduck-tech/concordloom",
             LAUNCHER.read_text(encoding="utf-8"),
         )
 

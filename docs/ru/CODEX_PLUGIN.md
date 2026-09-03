@@ -19,7 +19,7 @@ Concord Loom поставляется как плагин Codex с навыко�
 
 ```text
 Use $skill-installer to install
-https://github.com/concordloom/concordloom/tree/v0.1.5/plugins/concordloom/skills/design-project-loops
+https://github.com/madduck-tech/concordloom/tree/v0.1.5/plugins/concordloom/skills/design-project-loops
 ```
 
 После установки откройте новый диалог Codex. Навык будет доступен под именем

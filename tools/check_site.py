@@ -102,17 +102,17 @@ def main() -> int:
 
     root_html = index.read_text(encoding="utf-8")
     seo_urls = {
-        "x-default": "https://concordloom.github.io/concordloom/",
-        "en": "https://concordloom.github.io/concordloom/en/",
-        "ru": "https://concordloom.github.io/concordloom/ru/",
+        "x-default": "https://madduck-tech.github.io/concordloom/",
+        "en": "https://madduck-tech.github.io/concordloom/en/",
+        "ru": "https://madduck-tech.github.io/concordloom/ru/",
     }
     for language, url in seo_urls.items():
         marker = f'rel="alternate" hreflang="{language}" href="{url}"'
         if marker not in root_html:
             errors.append(f"site root lacks {language} alternate URL")
-    if 'rel="canonical" href="https://concordloom.github.io/concordloom/"' not in root_html:
+    if 'rel="canonical" href="https://madduck-tech.github.io/concordloom/"' not in root_html:
         errors.append("site root lacks its canonical URL")
-    if 'property="og:url" content="https://concordloom.github.io/concordloom/"' not in root_html:
+    if 'property="og:url" content="https://madduck-tech.github.io/concordloom/"' not in root_html:
         errors.append("site root lacks an absolute Open Graph URL")
 
     for language in ("en", "ru"):
@@ -121,7 +121,7 @@ def main() -> int:
             errors.append(f"site lacks the crawlable {language} page")
             continue
         localized = localized_path.read_text(encoding="utf-8")
-        canonical = f"https://concordloom.github.io/concordloom/{language}/"
+        canonical = f"https://madduck-tech.github.io/concordloom/{language}/"
         if f'<html lang="{language}"' not in localized:
             errors.append(f"crawlable {language} page has the wrong language")
         if f'rel="canonical" href="{canonical}"' not in localized:
@@ -140,7 +140,7 @@ def main() -> int:
     robots = SITE / "robots.txt"
     sitemap = SITE / "sitemap.xml"
     if not robots.is_file() or (
-        "Sitemap: https://concordloom.github.io/concordloom/sitemap.xml"
+        "Sitemap: https://madduck-tech.github.io/concordloom/sitemap.xml"
         not in robots.read_text(encoding="utf-8")
     ):
         errors.append("robots.txt does not advertise the public sitemap")

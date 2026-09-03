@@ -14,8 +14,8 @@
 
 ## Systems that can change themselves — without granting themselves permission.
 
-[![CI](https://github.com/concordloom/concordloom/actions/workflows/ci.yml/badge.svg)](https://github.com/concordloom/concordloom/actions/workflows/ci.yml)
-[![Pages](https://github.com/concordloom/concordloom/actions/workflows/pages.yml/badge.svg)](https://github.com/concordloom/concordloom/actions/workflows/pages.yml)
+[![CI](https://github.com/madduck-tech/concordloom/actions/workflows/ci.yml/badge.svg)](https://github.com/madduck-tech/concordloom/actions/workflows/ci.yml)
+[![Pages](https://github.com/madduck-tech/concordloom/actions/workflows/pages.yml/badge.svg)](https://github.com/madduck-tech/concordloom/actions/workflows/pages.yml)
 [![License: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-c8ff00.svg)](LICENSE)
 
 > [!WARNING]
@@ -24,7 +24,7 @@
 > rely on it as the only control for production-critical work yet. Tests on real
 > repositories, bug reports, usability feedback, documentation fixes, and code
 > contributions are especially welcome. See [CONTRIBUTING.md](.github/CONTRIBUTING.md)
-> or start a [Discussion](https://github.com/concordloom/concordloom/discussions).
+> or start a [Discussion](https://github.com/madduck-tech/concordloom/discussions).
 
 ## Help build it
 
@@ -100,7 +100,7 @@ With Codex, install one skill:
 
 ```text
 Use $skill-installer to install
-https://github.com/concordloom/concordloom/tree/v0.1.5/plugins/concordloom/skills/design-project-loops
+https://github.com/madduck-tech/concordloom/tree/v0.1.5/plugins/concordloom/skills/design-project-loops
 ```
 
 Start a new conversation in the repository, then ask:
@@ -128,12 +128,12 @@ release, or test `main` only after explicitly accepting an unreleased install.
 For a CLI-only installation:
 
 ```bash
-pipx install "concordloom @ git+https://github.com/concordloom/concordloom@v0.1.5"
+pipx install "concordloom @ git+https://github.com/madduck-tech/concordloom@v0.1.5"
 concordloom --version
 ```
 
 Continue with the [quickstart](docs/QUICKSTART.md), or open the
-[interactive Concord Loom site](https://concordloom.github.io/concordloom/).
+[interactive Concord Loom site](https://madduck-tech.github.io/concordloom/).
 
 ## Artifact chain
 
@@ -219,7 +219,7 @@ Every public guide is maintained in English and Russian.
 
 ```text
 Use $skill-installer to install
-https://github.com/concordloom/concordloom/tree/v0.1.5/plugins/concordloom/skills/design-project-loops
+https://github.com/madduck-tech/concordloom/tree/v0.1.5/plugins/concordloom/skills/design-project-loops
 ```
 
 Ask Codex to use `$design-project-loops`. The skill begins with bounded,

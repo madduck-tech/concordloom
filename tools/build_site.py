@@ -57,7 +57,7 @@ PUBLIC_DOCS = [
 TOKEN_SOURCE = SITE / "design-tokens.json"
 TOKEN_OUTPUT = SITE / "design-tokens.css"
 INDEX = SITE / "index.html"
-SITE_BASE_URL = "https://concordloom.github.io/concordloom"
+SITE_BASE_URL = "https://madduck-tech.github.io/concordloom"
 LOCALIZED_INDEXES = {
     "en": SITE / "en" / "index.html",
     "ru": SITE / "ru" / "index.html",
@@ -176,7 +176,7 @@ def inline_markup(value: str, source_path: Path | None = None) -> str:
                     href = f"{SITE_BASE_URL}/docs/{language}/{slug}/"
                     return f'<a href="{href}">{label}</a>'
             href = (
-                "https://github.com/concordloom/concordloom/blob/main/"
+                "https://github.com/madduck-tech/concordloom/blob/main/"
                 + html.escape(relative.as_posix(), quote=True)
             )
             return f'<a href="{href}" rel="noreferrer">{label}</a>'
@@ -356,11 +356,11 @@ def site_content() -> dict:
             "enTitle": "Observed landscape",
             "ruTitle": "Обзор ландшафта",
             "enUrl": (
-                "https://github.com/concordloom/concordloom/blob/main/"
+                "https://github.com/madduck-tech/concordloom/blob/main/"
                 "docs/research/OBSERVED_LANDSCAPE.md"
             ),
             "ruUrl": (
-                "https://github.com/concordloom/concordloom/blob/main/"
+                "https://github.com/madduck-tech/concordloom/blob/main/"
                 "docs/ru/research/OBSERVED_LANDSCAPE.md"
             ),
         }

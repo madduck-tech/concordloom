@@ -17,7 +17,7 @@ Ask Codex:
 
 ```text
 Use $skill-installer to install
-https://github.com/concordloom/concordloom/tree/v0.1.5/plugins/concordloom/skills/design-project-loops
+https://github.com/madduck-tech/concordloom/tree/v0.1.5/plugins/concordloom/skills/design-project-loops
 ```
 
 Start a new Codex thread after installation. The skill will then be available

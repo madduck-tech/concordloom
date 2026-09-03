@@ -11,7 +11,7 @@
 ## Проверка исходников
 
 ```bash
-git clone https://github.com/concordloom/concordloom.git
+git clone https://github.com/madduck-tech/concordloom.git
 cd concordloom
 git fetch --tags
 git checkout --detach v0.1.0

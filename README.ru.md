@@ -14,8 +14,8 @@
 
 ## Системы, которые умеют менять себя — но не могут сами себе это разрешить.
 
-[![CI](https://github.com/concordloom/concordloom/actions/workflows/ci.yml/badge.svg)](https://github.com/concordloom/concordloom/actions/workflows/ci.yml)
-[![Pages](https://github.com/concordloom/concordloom/actions/workflows/pages.yml/badge.svg)](https://github.com/concordloom/concordloom/actions/workflows/pages.yml)
+[![CI](https://github.com/madduck-tech/concordloom/actions/workflows/ci.yml/badge.svg)](https://github.com/madduck-tech/concordloom/actions/workflows/ci.yml)
+[![Pages](https://github.com/madduck-tech/concordloom/actions/workflows/pages.yml/badge.svg)](https://github.com/madduck-tech/concordloom/actions/workflows/pages.yml)
 [![License: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-c8ff00.svg)](LICENSE)
 
 > [!WARNING]
@@ -25,7 +25,7 @@
 > процессов. Особенно полезны испытания на реальных репозиториях, сообщения
 > о багах и неудобствах, а также правки документации и кода. Подробнее —
 > в [руководстве для участников](.github/CONTRIBUTING.ru.md). Можно также открыть
-> [обсуждение](https://github.com/concordloom/concordloom/discussions).
+> [обсуждение](https://github.com/madduck-tech/concordloom/discussions).
 
 ## Помогите развивать проект
 
@@ -98,7 +98,7 @@ Concord Loom разделяет две структуры:
 
 ```text
 Use $skill-installer to install
-https://github.com/concordloom/concordloom/tree/v0.1.5/plugins/concordloom/skills/design-project-loops
+https://github.com/madduck-tech/concordloom/tree/v0.1.5/plugins/concordloom/skills/design-project-loops
 ```
 
 Откройте новый диалог в нужном репозитории, затем попросите:
@@ -128,12 +128,12 @@ https://github.com/concordloom/concordloom/tree/v0.1.5/plugins/concordloom/skill
 Чтобы установить команду вручную:
 
 ```bash
-pipx install "concordloom @ git+https://github.com/concordloom/concordloom@v0.1.5"
+pipx install "concordloom @ git+https://github.com/madduck-tech/concordloom@v0.1.5"
 concordloom --version
 ```
 
 Продолжите по [руководству быстрого старта](docs/ru/QUICKSTART.md) или откройте
-[интерактивный сайт Concord Loom](https://concordloom.github.io/concordloom/).
+[интерактивный сайт Concord Loom](https://madduck-tech.github.io/concordloom/).
 
 ## Цепочка артефактов
 
@@ -219,7 +219,7 @@ concordloom --version
 
 ```text
 Use $skill-installer to install
-https://github.com/concordloom/concordloom/tree/v0.1.5/plugins/concordloom/skills/design-project-loops
+https://github.com/madduck-tech/concordloom/tree/v0.1.5/plugins/concordloom/skills/design-project-loops
 ```
 
 Попросите Codex использовать `$design-project-loops`. Навык начинает с
